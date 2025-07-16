@@ -269,4 +269,4 @@ parcel-cache/
 Icon?
 
 # Ignore specific files
-...
+test/
