@@ -257,12 +257,6 @@ coverage/
 .vite/
 parcel-cache/
 
-# Optional: ignore compiled JS if using TS source
-*.js
-*.js.map
-*.jsx
-*.jsx.map
-
 # Mac system files
 .AppleDouble
 .LSOverride
