@@ -72,6 +72,11 @@ body.dark-mode {
     height: auto;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
 .intro{
     display: flex;
@@ -101,6 +106,25 @@ body.dark-mode {
   }
 }
 
+.message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.message.result {
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+.message.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+
 nav{
     display: flex;
     flex-direction: row;
@@ -125,7 +149,10 @@ nav{
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
     border: 2px solid grey;
+}
 
+.shortener button:hover {
+  background-color: #0056b3;
 }
 
 .shortener input{
