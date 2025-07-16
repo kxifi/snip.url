@@ -1,0 +1,62 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body{
+    background-color: bisque;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    contain: content;
+    height: auto;
+    width: 50%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    height: auto;
+    width: 50%;
+}
+
+.founders{
+    display: flex;
+    box-sizing: border-box;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    justify-items: left;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid brown;
+    border-radius: 17.5px;
+    background-image: ;
+}
+
+.founders p{
+    justify-content: flex-end;
+    align-items: left;
+    font-size: 12px;
+}

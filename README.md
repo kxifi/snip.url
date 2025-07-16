@@ -8,9 +8,10 @@ what prototype 1.0 will have:
 - black and white toggle
 - placeholder in the textbox, which is in the center
 - result box on the bottom
+- about and contact in the same page at the bottom
+- simplistic, modern UI
 
 What v1.0 will have:
-- will shorten to site's name (youtube = yt.be/xyz)
-- simplistic, modern UI
+- will shorten to site's name
 - a saved links tab
 - temporary links storage without an account as cache
