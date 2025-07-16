@@ -18,7 +18,12 @@ What v1.0 will have:
 
 Setup virtual environment:
 on bash:
-python -m venv venv 
+python -m venv venv (for bash)
+python3 -m venv venv (for zsh)
+
+then do:
+source venv/bin/activate (for zsh)
+source venv/Scripts/activate (for bash)
 
 install requirements.txt:
 on bash:
@@ -28,4 +33,3 @@ to run flask app run the command from root directory on bash:
 python app.py
 
 MAKE SURE TO HAVE HTTP/HTTPS on link
-
